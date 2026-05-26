@@ -1,0 +1,151 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#eef4ff;
+  color:#123;
+}
+
+.container{
+  min-height:100vh;
+  padding:25px;
+}
+
+/* HEADER */
+
+.header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  margin-bottom:30px;
+}
+
+.logo-area{
+  display:flex;
+  align-items:center;
+  gap:15px;
+}
+
+.logo{
+  width:70px;
+}
+
+.logo-area h2{
+  color:#0F3D91;
+  font-size:24px;
+}
+
+.logo-area p{
+  color:#444;
+}
+
+.title{
+  text-align:center;
+}
+
+.title h1{
+  font-size:52px;
+  color:#0F3D91;
+  font-weight:800;
+}
+
+.title p{
+  font-size:24px;
+  color:#456;
+}
+
+.clock-box{
+  background:white;
+  padding:20px 30px;
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
+#clock{
+  font-size:42px;
+  font-weight:700;
+  color:#0F3D91;
+}
+
+#date{
+  color:#666;
+}
+
+/* MAIN */
+
+.main-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:30px;
+}
+
+.queue-card{
+  background:white;
+  border-radius:30px;
+  padding:40px;
+  box-shadow:0 15px 35px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
+.card-header{
+  font-size:30px;
+  font-weight:700;
+  margin-bottom:30px;
+}
+
+.queue-number{
+  font-size:220px;
+  font-weight:800;
+  line-height:1;
+}
+
+.blue{
+  color:#0F3D91;
+}
+
+.orange{
+  color:#F59E0B;
+}
+
+.service{
+  font-size:30px;
+  margin-top:20px;
+  font-weight:600;
+}
+
+/* SERVICES */
+
+.services{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  margin-top:35px;
+}
+
+.service-box{
+  background:white;
+  padding:25px;
+  border-radius:20px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.06);
+}
+
+.service-box h3{
+  color:#0F3D91;
+  margin-bottom:10px;
+}
+
+/* FOOTER */
+
+.footer{
+  margin-top:30px;
+  background:#0F3D91;
+  color:white;
+  padding:20px;
+  border-radius:20px;
+  font-size:20px;
+}
